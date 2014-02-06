@@ -1,3 +1,5 @@
+# BLEKit
+
 BLEKit is a framework for efficiently managing large-scale deployments of beacons (Bluetooth Low Energy devices implementing Apple’s iBeacon protocol). With a simple yet expressive JSON-based syntax, you can easily specify typical beacon actions, such as sending welcome messages, executing remote-server actions and performing automatic checkins. Additionally, BLEKit allows you to describe more complex expressions such as “IF user enters the immediate range of a beacon AND stays there for 1 minute THEN send him a message”. All this can be achieved through JSON configuration without the need to write a single line of code.
 
 BLEKit has been designed to be easily expandable with custom actions. The library offers a collection of common and reusable items, but is also well-suited to serve as a base layer for building custom service interactions.
